@@ -7,3 +7,5 @@ test-date:
 > This is the body!
 
 Nice!
+
+![filter.png](/uploads/filter.png)
