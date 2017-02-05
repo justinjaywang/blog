@@ -3,13 +3,10 @@ title: Preface
 date: 2017-01-01 00:00:00 -05:00
 ---
 
-Format that is better suited for more types of content: GIFs, code snippets, videos, different images from different cameras.
+I kept a previous blog, [Journal](http://journal.justinjay.wang/), from 2012–2016. It served its purpose well. It trained me to write, and therefore think, better. But its format was too restrictive. I was stuck keeping a certain photo style and formal tone.
 
-Previous blogs:
+I see it as representing one phase of my style as a designer. It was too calculated and perfect. Here, I'm pushing for capricious and prolific.
 
-- Journal
-- Greek&Cello
+I want to use this as a space for creative exploration. Its format is better suited for a wide variety of content: graphics, illustrations, photo experiments, charts, GIFs, videos, code snippets, and crappy iPhone photos that otherwise wouldn't have made the cut. Less of a daily log, more of a digital scrapbook. I hope you enjoy!
 
-Journal was too restrictive. Represents one phase of my design style. Cold, calculating. I'm looking to add more emotion and love.
-
-Focus on original work. Graphics, experiments, reflection. A space to explore creatively. Less of a day-to-day log of what I've been doing. More profilic. Curated, but more freeform and loose.
+— Justin

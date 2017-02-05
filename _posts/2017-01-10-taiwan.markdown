@@ -2,6 +2,8 @@
 title: Taiwan
 date: 2017-01-10 00:00:00 -05:00
 show_title: false
+tags:
+- photos
 ---
 
 ![](/uploads/taiwan-1.jpg)
@@ -9,4 +11,5 @@ show_title: false
 ![](/uploads/taiwan-3.jpg)
 {: .wide}
 
-Selfies from Taiwan.
+Hi, it's me, from Taiwan.
+{: .center}
