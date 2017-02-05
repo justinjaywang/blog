@@ -1,17 +1,17 @@
 {% assign post = include.post %}
 <article class="post">
   {% unless post.title == 'untitled' %}
-    <header class="post__header text-center container container--narrow">
+    <header class="post__header center container container--narrow">
       <h2><a href="{{ post.url }}" class="shh">{{ post.title | smartify }}</a></h2>
     </header>
   {% endunless %}
   <section class="longform">
     {{ post.content | markdownify }}
   </section>
-  <footer class="text-center">
+  <footer class="center">
     {% if post.date %}
       {% assign date_format = site.date_format | default: '%-d %b %Y' %}
-      <a href="{{ post.url }}" class="shh"><time datetime="{{ post.date | date_to_xmlschema }}" class="faded">{{ post.date | date: date_format }}</time></a>
+      <a href="{{ post.url }}" class="shh"><time datetime="{{ post.date | date_to_xmlschema }}" class="light">{{ post.date | date: date_format }}</time></a>
     {% endif %}
     {% if post.tags %}
       {% capture tags %}
@@ -20,7 +20,7 @@
             {% if post.collection == 'posts' %}
               {% for site_tag in site.blog_tags %}
                 {% if site_tag.title == post_tag %}
-                  <li><a href="{{ site_tag.permalink }}" class="faded shh">#{{ site_tag.title }}</a></li>
+                  <li><a href="{{ site_tag.permalink }}" class="light shh">#{{ site_tag.title }}</a></li>
                 {% endif %}
               {% endfor %}
             {% endif %}

@@ -50,6 +50,4 @@
       border-color: {{ fg }};
     }
   </style>
-{% endcapture %}
-{% comment %}{{ styles | strip_newlines | replace: '   ', ' ' | replace: '  ', ' ' | strip }}{% endcomment %}
-{{ styles | normalize_whitespace }}
+{% endcapture %}{{ styles | normalize_whitespace }}

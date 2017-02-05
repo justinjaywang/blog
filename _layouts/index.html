@@ -3,16 +3,20 @@ layout: default
 ---
 
 <main class="main">
-  {% assign limit = site.per_page | default: 12 %}
-  {% for post in site.posts limit:limit %}
+  {% for post in paginator.posts %}
     {% include post.html post=post %}
   {% endfor %}
-  <footer class="container container--narrow text-center faded">
-    <ul class="inline-list">
-      {% comment %}TO DO: add this{% endcomment %}
-      <li><a href="{{ page.previous.url }}">Prev</a>{% comment %}<span class="faded js-hotkey">(j)</span>{% endcomment %}</li>
-      <li>1 of 12</li>
-      <li><a href="{{ page.next.url }}">Next</a>{% comment %}<span class="faded js-hotkey">(k)</span>{% endcomment %}</li>
-    </ul>
+  <footer class="main__footer container container--padded center">
+    {% capture pagination %}
+      <ul class="inline-list">
+        {% if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path }}">Prev</a></li>
+        {% endif %}
+        <li>{{ paginator.page }} of {{ paginator.total_pages }}</li>
+        {% if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+        {% endif %}
+      </ul>
+    {% endcapture %}{{ pagination |  normalize_whitespace | replace: '> <', '><' }}
   </footer>
 </main>
