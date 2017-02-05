@@ -57,3 +57,5 @@ sass:
 repository: justinjaywnag/blog
 google_analytics: 
 date_format: "%-d %b %Y"
+bg_color: "#fff"
+fg_color: "#111"

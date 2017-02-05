@@ -1,0 +1,11 @@
+---
+title: Preface
+date: 2017-01-01 00:00:00 -05:00
+---
+
+Format that is better suited for more types of content: GIFs, code snippets, videos, different images from different cameras.
+
+Previous blogs:
+
+- Journal
+- Greek&Cello

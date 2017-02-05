@@ -29,8 +29,6 @@ html {
   font-size: $font-size--html;
 }
 body {
-  background-color: $color--bg;
-  color: $color--fg;
   font-family: $font-family--body;
   font-weight: $font-weight--body;
   font-size: 1em;
@@ -202,7 +200,7 @@ i {
   }
   h5,
   h6 {
-    opacity: $opacity--faded;
+    opacity: $opacity--light;
   }
   img,
   video,
@@ -270,7 +268,7 @@ i {
 }
 small,
 .caption {
-  opacity: $opacity--faded;
+  opacity: $opacity--light;
 }
 .caption {
   margin-top: -$v*1.5;
@@ -284,13 +282,8 @@ samp {
   overflow: auto;
   white-space: pre;
 }
-pre,
-code {
-  background-color: $color--fg;
-  color: $color--bg;
-}
 .footnotes {
-  opacity: $opacity--faded;
+  opacity: $opacity--light;
   margin-top: $v*2;
   &:before {
     content: '———';
@@ -321,7 +314,7 @@ sup {
   text-align: center;
 }
 .faded {
-  opacity: $opacity--faded;
+  opacity: $opacity--light;
 }
 .caps {
   text-transform: uppercase;

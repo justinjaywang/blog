@@ -1,0 +1,55 @@
+{% capture styles %}
+
+  {% if page.bg_color %}
+    {% assign bg = page.bg_color %}
+  {% else %}
+    {% assign bg = site.bg_color %}
+  {% endif %}
+
+  {% if page.fg_color %}
+    {% assign fg = page.fg_color %}
+  {% else %}
+    {% assign fg = site.fg_color %}
+  {% endif %}
+
+  <style type="text/css">
+    body {
+      background: {{ bg }};
+      color: {{ fg }};
+    }
+    ::-moz-selection {
+      background-color: {{ fg }};
+      color: {{ bg }};
+    }
+    ::selection {
+      background-color: {{ fg }};
+      color: {{ bg }};
+    }
+    .highlight,
+    pre,
+    code {
+      background: {{ fg }};
+      color: {{ bg }};
+    }
+    .bg {
+      color: {{ bg }};
+    }
+    .fg {
+      color: {{ fg }};
+    }
+    .background--bg {
+      background: {{ bg }};
+    }
+    .background--fg {
+      background: {{ fg }};
+    }
+    .border--bg {
+      border-color: {{ bg }};
+    }
+    .border--fg {
+      border-color: {{ fg }};
+    }
+  </style>
+{% endcapture %}
+{% comment %}{{ styles | strip_newlines | replace: '   ', ' ' | replace: '  ', ' ' | strip }}{% endcomment %}
+{{ styles | normalize_whitespace }}
