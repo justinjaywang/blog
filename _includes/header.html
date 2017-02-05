@@ -1,0 +1,17 @@
+<header class="header container text-center">
+  <section class="header__title"><a href="/" class="shh">{{ site.title }}</a></section>
+  {% if site.nav %}
+    <nav class="header__nav">
+      <ul class="header__nav__items">
+        {% capture nav %}
+          {% for item in site.nav %}
+            <li class="header__nav__item">
+              <a href="{{ item.url }}" class="header__nav__link">{{ item.title }}</a>
+            </li>{% unless forloop.last %}{{ site.nav_separator | default: '' }}{% endunless %}
+          {% endfor %}
+        {% endcapture %}
+        {{ nav | normalize_whitespace | replace: '> ', '>' | replace: ' <', '<' }}
+      </ul>
+    </nav>
+  {% endif %}
+</header>

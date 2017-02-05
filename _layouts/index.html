@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main class="main">
+  {% assign limit = site.per_page | default: 12 %}
+  {% for post in site.posts limit:limit %}
+    {% include post.html post=post %}
+  {% endfor %}
+  <footer class="container container--narrow text-center faded">
+    <ul class="inline-list">
+      {% comment %}TO DO: add this{% endcomment %}
+      <li><a href="{{ page.previous.url }}">Prev</a>{% comment %}<span class="faded js-hotkey">(j)</span>{% endcomment %}</li>
+      <li>1 of 12</li>
+      <li><a href="{{ page.next.url }}">Next</a>{% comment %}<span class="faded js-hotkey">(k)</span>{% endcomment %}</li>
+    </ul>
+  </footer>
+</main>
