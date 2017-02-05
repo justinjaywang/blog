@@ -20,7 +20,7 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/:title/"
+    permalink: "/:year/:title/"
     layout: post
     image: 
     tags: 

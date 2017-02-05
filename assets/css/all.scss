@@ -173,6 +173,19 @@ i {
   iframe {
     @include margin-center;
   }
+  small,
+  .caption {
+    opacity: $opacity--light;
+  }
+  .caption {
+    margin-top: -$v*1.5;
+    margin-bottom: $v*2;
+    text-align: center;
+  }
+  .caption + img,
+  img + img {
+    margin-top: $v*-1;
+  }
   hr {
     border: 0;
     height: $v;
@@ -220,15 +233,6 @@ i {
   > .wide {
     @extend .container--wide;
   }
-}
-small,
-.caption {
-  opacity: $opacity--light;
-}
-.caption {
-  margin-top: -$v*1.5;
-  margin-bottom: $v*2;
-  text-align: center;
 }
 pre,
 code,

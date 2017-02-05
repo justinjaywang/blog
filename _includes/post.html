@@ -1,6 +1,6 @@
 {% assign post = include.post %}
 <article class="post">
-  {% unless post.title == 'untitled' %}
+  {% unless post.show_title == false %}
     <header class="post__header center container container--narrow">
       <h2><a href="{{ post.url }}">{{ post.title | smartify }}</a></h2>
     </header>

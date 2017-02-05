@@ -1,9 +1,10 @@
 ---
 title: About
+show_title: false
 ---
 
-Cut-off jean shorts miss cleo be kind rewind mad props. Airwalk netscape navigator discman ut. America online street fighter ii frasier I will be your father figure the rachel haircut, push pencils quis snapple track jackets qui vertically striped shirts. Uncle phil scrunchies atlanta braves maze screensavers oakleys leggings. Can’t touch this cornrows gak leopard print snapback hats.
+I'm a designer at [Oak](https://oak.is) in Brooklyn, NY. Check out my [home page](http://justinjay.wang).
 
-Mariah carey carpenter pants gangsta rap la gear, oakleys wearing your cap backwards chia pet phat macaulay culkin. Yo quiero taco bell new kids on the block hoop earrings blockbuster video home improvement sitcoms, starter jackets hootie and the blowfish track jackets slap bracelet michael jordan. Babyface lorem ex oversized sweaters. Nisi choker necklace ac slater ring pops reprehenderit trl, end of the road in instant messaging lion king crew cut.
+On this blog you can find experiments and such. I talk about it here in the [preface](/2017/preface/).
 
-Siteleaf, purpose, etc.
+This site runs on [Siteleaf](https://www.siteleaf.com/) and is set in [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono).

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ site.title }}{% unless page.url == '/' %}{% unless page.title == 'untitled' %} - {{ page.title }}{% endunless %}{% endunless %}</title>
+    <title>{% unless page.url == '/' %}{{ page.title }} · {% endunless %}{{ site.title }}</title>
     <link rel="stylesheet" href="/assets/css/all.css" />
     {% include theme.html %}
     {% if jekyll.environment == 'production' and site.google_analytics %}
