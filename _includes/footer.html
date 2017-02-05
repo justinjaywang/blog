@@ -1,8 +1,8 @@
 <footer class="footer container text-center faded">
   {% capture footer_links %}
     <ul class="inline-list">
-      {% comment %}<li><a href="/archive/">Archive</a></li>{% endcomment %}
-      <li><a href="/about/">About</a></li>
+      {% comment %}<li><a href="/archive/" class="shh">Archive</a></li>{% endcomment %}
+      <li><a href="/about/" class="shh">About</a></li>
     </ul>
   {% endcapture %}{{ footer_links |  normalize_whitespace | replace: '> <', '><' }}
 </footer>

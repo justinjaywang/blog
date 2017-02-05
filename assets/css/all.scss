@@ -50,6 +50,9 @@ a {
   }
   &.shh {
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 strong,
@@ -147,6 +150,9 @@ i {
 .main {
   margin-bottom: $v*2;
 }
+.main--archive {
+  margin-bottom: $v*6;
+}
 .header {
   margin-top: $v*4;
   margin-bottom: $v*6;
@@ -163,6 +169,7 @@ i {
 }
 .post__header {
   margin-bottom: $v;
+  font-weight: $font-weight--bold;
 }
 .longform {
   h1,
@@ -181,10 +188,20 @@ i {
     margin-bottom: $v;
   }
   h1,
+  h2 {
+    font-weight: $font-weight--bold;
+  }
+  h3,
+  h5,
+  h6 {
+    font-style: italic;
+  }
+  h1,
   h2,
   h3 {
     margin-top: $v*2;
   }
+  h4,
   h5,
   h6 {
     opacity: $opacity--faded;
@@ -271,6 +288,9 @@ code {
   margin-top: $v*2;
   &:before {
     content: '———';
+  }
+  ol {
+    padding-left: $char*2 !important;
   }
 }
 sup {
