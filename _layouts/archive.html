@@ -2,9 +2,14 @@
 layout: default
 ---
 
-<main class="main main--archive container container--narrow center">
+<main class="main container container--narrow center">
   <ul class="archive-items">
-    {% for post in site.posts %}
+    {% if page.collection == 'blog_tags' %}
+      {% assign posts = site.tags[page.title] %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+    {% for post in posts %}
       {% assign month = post.date | date: '%b %Y' %}
       {% if forloop.first %}<!-- first post -->
         <h4 class="archive-month light">{{ month }}</h4>
