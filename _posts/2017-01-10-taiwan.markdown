@@ -1,8 +1,7 @@
 ---
 title: Taiwan
-show_title: false
 date: 2017-01-10 00:00:00 -05:00
-tags:
+show_title: false
 ---
 
 ![](/uploads/taiwan-1.jpg)
