@@ -275,6 +275,14 @@ small,
 .caption {
   margin-top: -$v*1.5;
   margin-bottom: $v*2;
+  text-align: center;
+}
+pre,
+code,
+kbd,
+samp {
+  overflow: auto;
+  white-space: pre;
 }
 pre,
 code {
