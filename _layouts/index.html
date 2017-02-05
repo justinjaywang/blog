@@ -6,17 +6,19 @@ layout: default
   {% for post in paginator.posts %}
     {% include post.html post=post %}
   {% endfor %}
-  <footer class="main__footer container container--padded center">
-    {% capture pagination %}
-      <ul class="inline-list">
-        {% if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path }}">Prev</a></li>
-        {% endif %}
-        <li>{{ paginator.page }} of {{ paginator.total_pages }}</li>
-        {% if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path }}">Next</a></li>
-        {% endif %}
-      </ul>
-    {% endcapture %}{{ pagination |  normalize_whitespace | replace: '> <', '><' }}
-  </footer>
+  {% unless paginator.total_pages == 1 %}
+    <footer class="main__footer container container--padded center">
+      {% capture pagination %}
+        <ul class="inline-list">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path }}">Prev</a></li>
+          {% endif %}
+          <li>{{ paginator.page }} of {{ paginator.total_pages }}</li>
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+          {% endif %}
+        </ul>
+      {% endcapture %}{{ pagination |  normalize_whitespace | replace: '> <', '><' }}
+    </footer>
+  {% endunless %}
 </main>

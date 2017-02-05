@@ -46,7 +46,7 @@ exclude:
 gems:
 - jekyll-seo-tag
 - jekyll-paginate
-paginate: 3
+paginate: 12
 paginate_path: "/page/:num/"
 markdown: kramdown
 highlighter: rouge
