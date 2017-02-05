@@ -1,8 +1,6 @@
+---
 title: Justin Jay Wang
 timezone: America/New_York
-url: http://blog.justinjay.wang
-description: >
-  Blog of Justin Jay Wang, a multidisciplinary designer at Oak Studios in Brooklyn.
 collections:
   blog_tags:
     title: Blog Tags
@@ -32,6 +30,11 @@ defaults:
   values:
     permalink: "/tags/:title/"
     layout: index
+url: http://blog.justinjay.wang
+description: 'Blog of Justin Jay Wang, a multidisciplinary designer at Oak Studios
+  in Brooklyn.
+
+'
 permalink: pretty
 exclude:
 - Gruntfile.js
@@ -39,7 +42,7 @@ exclude:
 - package.json
 - README*
 - node_modules
-- '.gitignore'
+- ".gitignore"
 gems:
 - jekyll-seo-tag
 markdown: kramdown
@@ -53,4 +56,4 @@ sass:
   style: compressed
 repository: justinjaywnag/blog
 google_analytics: 
-date_format: '%-d %b %Y'
+date_format: "%-d %b %Y"
