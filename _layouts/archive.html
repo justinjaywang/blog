@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main class="main container container--narrow center">
+  <ul class="archive-items">
+    {% if page.collection == 'blog_tags' %}
+      {% assign posts = site.tags[page.title] %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+    {% for post in posts %}
+      {% assign month = post.date | date: '%b %Y' %}
+      {% if forloop.first %}<!-- first post -->
+        <h4 class="archive-month light">{{ month }}</h4>
+      {% else %}
+        {% capture next_month %}{{ post.next.date | date: '%b %Y' }}{% endcapture %}
+        {% if month != next_month %}
+          <h4 class="archive-month light">{{ month }}</h4>
+        {% endif %}
+      {% endif %}
+      <li class="archive-item">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</main>

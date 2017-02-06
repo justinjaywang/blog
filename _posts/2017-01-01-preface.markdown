@@ -1,0 +1,12 @@
+---
+title: Preface
+date: 2017-01-01 00:00:00 -05:00
+---
+
+I kept a previous blog, [Journal](http://journal.justinjay.wang/), from 2012–2016. It served its purpose well. It trained me to write, and therefore think, better. But its format was too restrictive. I was stuck using the same photo style and formal tone.
+
+That journal represented one phase of my evolution as a designer (and maybe person, too). It was calculated and perfect. I'm pushing for capricious and prolific.
+
+I want to use this as a space for creative exploration: graphics, illustrations, photo experiments, charts, GIFs, videos, sound clips, code snippets, deep thoughts, playlists. Less of a daily log, more of a digital scrapbook. I hope you enjoy.
+
+— Justin

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<main class="main">
+  {% include post.html post=page %}
+  {% comment %}
+    <footer class="container container--narrow center">
+      <ul>
+        {% if page.previous %}
+          <li><a href="{{ page.previous.url }}">Prev: {{ page.previous.title }}</a></li>
+        {% endif %}
+        {% if page.next %}
+          <li><a href="{{ page.next.url }}">Next: {{ page.next.title }}</a></li>
+        {% endif %}
+      </ul>
+    </footer>
+  {% endcomment %}
+</main>

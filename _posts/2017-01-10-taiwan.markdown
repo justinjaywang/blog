@@ -1,0 +1,15 @@
+---
+title: Taiwan
+date: 2017-01-10 00:00:00 -05:00
+tags:
+- photos
+show_title: false
+---
+
+![](/uploads/taiwan-1.jpg)
+![](/uploads/taiwan-2.jpg)
+![](/uploads/taiwan-3.jpg)
+{: .wide}
+
+Hi, it's me, from Taiwan.
+{: .center}

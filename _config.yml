@@ -1,8 +1,10 @@
 ---
-title: Justin's Blog
-url: http://jjwblog.siteleaf.net
-timezone: UTC
+title: Justin Jay Wang
+timezone: America/New_York
 collections:
+  blog_tags:
+    title: Blog Tags
+    output: true
   posts:
     title: Posts
     output: true
@@ -12,13 +14,51 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
 - scope:
     path: ''
-    type: pages
+    type: posts
   values:
-    layout: page
+    permalink: "/:year/:title/"
+    layout: post
+    image: 
+    tags: 
+- scope:
+    path: ''
+    type: blog_tags
+  values:
+    permalink: "/tags/:title/"
+    layout: archive
+url: http://blog.justinjay.wang
+description: 'Blog of Justin Jay Wang, a multidisciplinary designer at Oak Studios
+  in Brooklyn.
+
+'
 permalink: pretty
+exclude:
+- Gruntfile.js
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+gems:
+- jekyll-seo-tag
+- jekyll-paginate
+paginate: 12
+paginate_path: "/page/:num/"
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: |2+
+
+
+
+sass:
+  sass_dir: assets/css/
+  style: compressed
+repository: justinjaywnag/blog
+google_analytics: 
+date_format: "%-d %b %Y"
+bg_color: "#fff"
+fg_color: "#111"
