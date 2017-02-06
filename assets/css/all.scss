@@ -80,7 +80,7 @@ i {
 }
 .container--wide {
   max-width: $max-width--container--wide;
-  @include max-width($max-width--sm) {
+  @include max-width($max-width--md) {
     padding-left: 0;
     padding-right: 0;
   }
