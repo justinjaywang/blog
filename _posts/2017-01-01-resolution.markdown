@@ -5,8 +5,8 @@ tags:
 - reflection
 ---
 
-*Be more open*. I'm resolving to open myself up to new people and new experiences, and not being afraid to show my personality.
+*Be more open*. I'm resolving to open myself up more, to new people and new experiences, and not being afraid to show my personality.
 
 Looking back, I think a number of things have happened in my life that led to me becoming more reserved, for fear of rejection. I wasn't always this way, and I don't think it's my true nature.
 
-I have a lot of love to give. Here's to sharing more of it.
+I have a lot of love to give. Here's to sharing more of it in 2017 and beyond.
