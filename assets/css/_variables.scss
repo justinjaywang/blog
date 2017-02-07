@@ -20,7 +20,7 @@ $opacity--light: 0.5;
 // ------------------
 
 $v: $line-height--body * 1rem;
-$char: 0.6em;
+$char: 0.6rem;
 
 // grid
 // ----
@@ -37,6 +37,6 @@ $max-width--lg: ($min-width--xl - 1);
 $max-width--container--narrow: 44rem;
 $max-width--container--wide:   960px;
 
-$gutter: 1.5em;
+$gutter: 1.5rem;
 
 // $color--background: {{ site.background_color | default: '#fff' }}; // TO DO: move some of the vars to config
