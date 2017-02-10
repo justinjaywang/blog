@@ -1,9 +1,9 @@
 ---
 title: Snow
 date: 2017-02-09 10:50:00 -05:00
-show_title: false
 tags:
 - gifs
+show_title: false
 ---
 
 ![](/uploads/snow.gif)
