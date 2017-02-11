@@ -1,5 +1,5 @@
 ---
-title: Tatung rice cooker
+title: Rice cooker
 date: 2017-02-06 21:14:00 -05:00
 tags:
 - gifs
