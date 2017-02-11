@@ -64,6 +64,17 @@
   user-select: $select;
 }
 
+@mixin selection($background, $foreground) {
+  ::-moz-selection {
+    background-color: $background;
+    color: $foreground;
+  }
+  ::selection {
+    background-color: $background;
+    color: $foreground;
+  }
+}
+
 @mixin aspect-parent($percent: 100%) {
   padding-top: $percent;
   height: 0;

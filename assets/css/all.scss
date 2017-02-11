@@ -35,6 +35,7 @@ body {
   line-height: $line-height--body;
   overflow-x: hidden;
 }
+@include selection($color--highlight, $color--body);
 img,
 video,
 iframe {
@@ -140,7 +141,8 @@ i {
   pre,
   img,
   video,
-  iframe {
+  iframe,
+  .img {
     margin-bottom: $v;
   }
   h1,
@@ -162,7 +164,8 @@ i {
   }
   img,
   video,
-  iframe {
+  iframe,
+  .img {
     @include margin-center;
   }
   small,
@@ -170,8 +173,8 @@ i {
     opacity: $opacity--light;
   }
   .caption {
-    margin-top: -$v*1.5;
-    margin-bottom: $v*2;
+    margin-top: -$v*0.5;
+    margin-bottom: $v;
     text-align: center;
   }
   hr {

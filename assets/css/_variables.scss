@@ -14,6 +14,10 @@ $font-weight--bold: 700;
 // colors
 // ------
 
+$background-color--body: #fff;
+$color--body:            #111;
+$color--highlight:       rgba($color--body, 0.125);
+
 $opacity--light: 0.5;
 
 // sizing and spacing
@@ -38,5 +42,3 @@ $max-width--container--narrow: 640px;
 $max-width--container--wide:   960px;
 
 $gutter: 1.5rem;
-
-// $color--background: {{ site.background_color | default: '#fff' }}; // TO DO: move some of the vars to config
