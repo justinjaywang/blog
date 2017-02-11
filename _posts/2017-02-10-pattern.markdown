@@ -1,0 +1,14 @@
+---
+title: JJW Pattern
+date: 2017-02-10 22:00:20 -05:00
+tags:
+- graphics
+show_title: false
+---
+
+<figure class="wide">
+  <div class="img" style="background-image: url(/uploads/pattern--jjw.svg); background-repeat: repeat; background-position: center; background-size: 72px; padding-top: 56.25%;" />
+</figure>
+
+Playing around with some seamless patterns.
+{: .center}
