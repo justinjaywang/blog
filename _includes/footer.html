@@ -1,9 +1,9 @@
 <footer class="footer container container--padded center">
   {% capture footer_links %}
     <ul class="inline-list">
-      <li><a href="/" class="shh">Latest</a></li>
-      <li><a href="/archive/" class="shh">Archive</a></li>
-      <li><a href="http://justinjay.wang" class="shh" target="_blank">About</a></li>
+      {% comment %}<li><a href="/" class="shh">Latest</a></li>
+      <li><a href="/archive/" class="shh">Archive</a></li>{% endcomment %}
+      <li><a href="http://justinjay.wang" class="shh" target="_blank">justinjay.wang</a></li>
     </ul>
   {% endcapture %}{{ footer_links |  normalize_whitespace | replace: '> <', '><' }}
   <div class="powered-by light"><a href="http://www.siteleaf.com" class="shh" target="_blank">Siteleaf</a></div>
