@@ -29,6 +29,8 @@ html {
   font-size: $font-size--html;
 }
 body {
+  background-color: $background-color--body;
+  color: $color--body;
   font-family: $font-family--body;
   font-weight: $font-weight--body;
   font-size: 1em;
@@ -105,14 +107,14 @@ i {
 // ------------------------
 
 .main {
-  margin-bottom: $v*6;
+  margin-bottom: $v*8;
 }
 .header {
   margin-top: $v*4;
-  margin-bottom: $v*6;
+  margin-bottom: $v*8;
 }
 .footer {
-  margin-top: $v*6;
+  margin-top: $v*8;
   margin-bottom: $v*4;
 }
 .powered-by {
@@ -123,7 +125,7 @@ i {
 // ----
 
 .post {
-  margin-bottom: $v*6;
+  margin-bottom: $v*8;
 }
 .post__header {
   margin-bottom: $v;

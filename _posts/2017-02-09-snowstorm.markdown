@@ -10,5 +10,5 @@ show_title: false
 ![](/uploads/snow.gif)
 {: .wide}
 
-On my way to work today.
+On the way to work today.
 {: .center}
