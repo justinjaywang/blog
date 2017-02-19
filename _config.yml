@@ -58,8 +58,6 @@ excerpt_separator: |2+
 sass:
   sass_dir: assets/css/
   style: compressed
-repository: justinjaywnag/blog
+repository: justinjaywang/blog
 google_analytics: UA-15132368-15
 date_format: "%-d %b %Y"
-bg_color: "#fff"
-fg_color: "#111"
