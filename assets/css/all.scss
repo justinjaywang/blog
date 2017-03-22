@@ -294,7 +294,7 @@ sup {
   li {
     display: inline-block;
     &:not(:last-of-type) {
-      margin-right: $char*2; // TO DO: make equal to 2*char
+      margin-right: $char;
     }
   }
 }
