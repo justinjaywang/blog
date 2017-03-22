@@ -15,7 +15,7 @@
     {% endif %}
     {% if post.tags %}
       {% capture tags %}
-        <ul class="inline-list">
+        <ul class="inline-list inline-block">
           {% for post_tag in post.tags %}
             {% if post.collection == 'posts' %}
               {% for site_tag in site.blog_tags %}
